@@ -1,0 +1,6 @@
+{
+  "projectName": "simple-node-app",
+  "provider": "github",
+  "docker": true,
+  "agent": true
+}

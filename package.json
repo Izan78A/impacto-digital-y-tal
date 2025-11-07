@@ -1,0 +1,37 @@
+{
+  "name": "impacto-digital-uploader",
+  "version": "1.0.0",
+  "description": "Sistema para subir proyectos locales a la nube y gestionar productos digitales",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "impacto-upload": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "deploy": "node src/deploy.js",
+    "agent": "node src/agent/runner.js"
+  },
+  "keywords": [
+    "cloud",
+    "deployment",
+    "automation",
+    "agentic-system",
+    "docker",
+    "github",
+    "render",
+    "supabase"
+  ],
+  "author": "Izan78A",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "inquirer": "^9.2.12",
+    "axios": "^1.6.2",
+    "simple-git": "^3.21.0",
+    "twilio": "^4.19.0"
+  }
+}

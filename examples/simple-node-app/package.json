@@ -1,0 +1,13 @@
+{
+  "name": "simple-node-app",
+  "version": "1.0.0",
+  "description": "Ejemplo de aplicación Node.js para Impacto Digital",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["example", "impacto-digital"],
+  "author": "Izan78A",
+  "license": "MIT"
+}
